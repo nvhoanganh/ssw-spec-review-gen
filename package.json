@@ -4,6 +4,8 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
+    "predeploy": "npm run build",
+    "deploy": "npm run build",
     "start": "sirv public --single"
   },
   "devDependencies": {
