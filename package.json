@@ -5,7 +5,7 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "predeploy": "npm run build",
-    "deploy": "npm run build",
+    "deploy": "surge public --domain https://specgen.surge.sh",
     "start": "sirv public --single"
   },
   "devDependencies": {
